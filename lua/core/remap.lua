@@ -1,5 +1,4 @@
 vim.g.mapleader = " "
-vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
 -- move lines with vscode-ish style
 vim.keymap.set("v", "K", ":m '<-2<CR>gv")
